@@ -31,11 +31,11 @@ namespace NationalParkApi.Models
       );
       builder.Entity<StateReserve>()
         .HasData(
-          new StateReserve { StateReserveId = 1, StateId = 1, ReserveId = },
-          new StateReserve { StateReserveId = 2, StateId = "Mt. Hood NationalForest"},
-          new StateReserve { StateReserveId = 3, StateId = "Zion National Park"},
-          new StateReserve { StateReserveId = 4, StateId = "Yosemite National Park"},
-          new StateReserve { StateReserveId = 5, StateId = "Yellowstone National Park"}
+          new StateReserve { StateReserveId = 1, StateId = 1, ReserveId = 1},
+          new StateReserve { StateReserveId = 2, StateId = 2, ReserveId = 2},
+          new StateReserve { StateReserveId = 3, StateId = 3, ReserveId = 3},
+          new StateReserve { StateReserveId = 4, StateId = 4, ReserveId = 4},
+          new StateReserve { StateReserveId = 5, StateId = 5, ReserveId = 5}
       );
     }
   }
