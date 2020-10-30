@@ -33,12 +33,12 @@ namespace NationalParkApi.Controllers
     }
 
     [HttpPost]
-    public void Post([FromBody] Reserve reserve, int MainTypeId)
+    public void Post([FromBody] Reserve reserve, int  StateId)
     {
       _db.Reserves.Add(reserve);
-      if (MainTypeId != 0)
+      if ( StateId != 0)
       {
-        _db.ReserveMainTypes.Add(new ReserveMainType() { MainTypeId = MainTypeId, ReserveId = reserve.ReserveId });
+        _db.StateReserves.Add(new StateReserve() {  StateId =  StateId, ReserveId = reserve.ReserveId });
       }
       _db.SaveChanges();
     }

@@ -20,22 +20,26 @@ namespace NationalParkApi.Controllers
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<State>> Get(string stateName)
+    public ActionResult<IEnumerable<State>> Get(int Id)
     {
       var query = _db.States.AsQueryable();
 
-      if (stateName != null)
+      if (Id != 0)
       {
-        query = query.Where(entry => entry.StateName == stateName);
+        query = query.Where(entry => entry.StateId == Id);
       }
       
       return query.ToList();
     }
 
     [HttpPost]
-    public void Post([FromBody] State state)
+    public void Post([FromBody] State state, int ReserveId)
     {
       _db.States.Add(state);
+      if (ReserveId != 0)
+      {
+        _db.StateReserves.Add(new StateReserve() { ReserveId = ReserveId, StateId = state.StateId });
+      }
       _db.SaveChanges();
     }
 
@@ -56,3 +60,6 @@ namespace NationalParkApi.Controllers
     }
   }
 }
+
+
+

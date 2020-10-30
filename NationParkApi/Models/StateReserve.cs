@@ -1,4 +1,4 @@
-namespace DungeonApi.Models
+namespace NationalParkApi.Models
 {
   public class StateReserve
   {
