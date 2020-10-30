@@ -7,12 +7,12 @@ namespace NationalParkApi.Models
   {
     public Reserve()
     {      
-      this.States = new HashSet<ReserveState>();
+      this.States = new HashSet<StateReserve>();
     }
     public int ReserveId { get; set; }
     [Required]
     public string ReserveName { get; set; }
-    public virtual ICollection<ReserveState> States { get; set; }
-    
+    public virtual ICollection<StateReserve> States { get; set; }
+
   }
 }
