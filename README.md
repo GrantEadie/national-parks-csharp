@@ -129,7 +129,7 @@ To view or edit the code, you will need an code editor or text editor. The popul
 
 #### Database
 
-1. Navigate to the NationalParksApi directory using the MacOS Terminal or Windows Powershell (e.g. `cd Desktop/ParkWatch.Solutions/AudioProject`).
+1. Navigate to the NationalParksApi directory using the MacOS Terminal or Windows Powershell
 2. Run the command `dotnet ef database update` to generate the database through Entity Framework Core.
 3. (Optional) To update the database with any changes to the code, run the command `dotnet ef migrations add <MigrationsName>` which will use Entity Framework Core's code-first principle to generate a database update. After, run the previous command `dotnet ef database update` to update the database.
 
@@ -143,7 +143,7 @@ If you have any feedback or concerns, please contact <grantleadie@gmail.com>.
 
 ### ⚖️ License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2020 Natalie Murphy, Grant Eadie, Michael Watts All Rights Reserved.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2020 Grant Eadie All Rights Reserved.
 
 ```
 
