@@ -25,9 +25,8 @@
 
 ---
 
-### <u>Table of Contents</u>
+# <u>Table of Contents</u>
 
-- <a href="#🌐-about-the-project">About the Project</a>
   - <a href="###📖-Description">Description</a>
   - <a href="#🦠-known-bugs">Known Bugs</a>
   - <a href="#🛠-built-with">Built With</a>
@@ -42,15 +41,15 @@
 
 ---
 
-### 📖 Description
+# 📖 Description
 
 Use this really sweet little API to log the reserves, states, and their subsequent pairs in a SQL database. Simply GET and POST to this API to transfer information. Authorization is held in a Bearer Key - more details below! 
 
-### 🦠 Known Bugs
+# 🦠 Known Bugs
 
 - Join table can be tricky at times. 
 
-### 🛠 Built With
+# 🛠 Built With
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
@@ -58,22 +57,22 @@ Use this really sweet little API to log the reserves, states, and their subseque
 - [MySQL](https://dev.mysql.com/)
 - [Entity Framework Core 2.2.6](https://docs.microsoft.com/en-us/ef/core/)
 
-#### Install .NET Core
+## Install .NET Core
 
 - On macOS Mojave or later
   - [Click here](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.106-macos-x64-installer) to download the .NET Core SDK from Microsoft Corp for macOS.
 - On Windows 10 x64 or later
   - [Click here](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.203-windows-x64-installer) to download the 64-bit .NET Core SDK from Microsoft Corp for Windows.
 
-#### Install dotnet script
+## Install dotnet script
 
 Enter the command `dotnet tool install -g dotnet-script` in Terminal for macOS or PowerShell for Windows.
 
-#### Install MySQL Workbench
+## Install MySQL Workbench
 
 [Download and install the appropriate version of MySQL Workbench](https://dev.mysql.com/downloads/workbench/).
 
-#### Code Editor
+## Code Editor
 
 To view or edit the code, you will need an code editor or text editor. The popular open-source choices for an code editor are Atom and VisualStudio Code.
 
@@ -86,7 +85,7 @@ To view or edit the code, you will need an code editor or text editor. The popul
 
 <hr>
 
-#### Database Settings
+## Database Settings
 
 1. Create a new file in the NationalParks directory named `appsettings.json`
 2. Add in the following code snippet to the new appsettings.json file:
@@ -107,7 +106,7 @@ To view or edit the code, you will need an code editor or text editor. The popul
 
 3. Change the server, port, and user id as necessary. Replace 'YourPassword' with relevant MySQL password (set at installation of MySQL).
 
-### ⚙️ Setup and Use
+# ⚙️ Setup and Use
 
 - copy the repository URL and paste it after this GIT command `git clone {repository url}`
 - after opening the repository in your code reader, run `dotnet build`
@@ -124,7 +123,7 @@ To view or edit the code, you will need an code editor or text editor. The popul
 - copy the Bearer Token received in the body of the return and paste into your client
 - POST or GET to `http://localhost:4000/api/reserves` or `http://localhost:4000/api/states`
 
-### POSTING 
+# POSTING 
 
 - in [Postman](https://www.postman.com/) or other client, paste your Bearer Token into a header
 - paste this url into the request line -- http://localhost/api/{reserves OR states}
@@ -144,13 +143,13 @@ To view or edit the code, you will need an code editor or text editor. The popul
 }
 ```
 
-### GETTING
+# GETTING
 - in [Postman](https://www.postman.com/) or other client, paste your Bearer Token into a header
 - paste this url into the request line -- http://localhost/api/{reserves OR states}
 - send request and reap the benefits of this incredible API!
 
 
-#### Database
+## Database
 
 1. Navigate to the NationalParksApi directory using the MacOS Terminal or Windows Powershell
 2. Run the command `dotnet ef database update` to generate the database through Entity Framework Core.
@@ -158,13 +157,13 @@ To view or edit the code, you will need an code editor or text editor. The popul
 
 ---
 
-### ✉️ Contact and Support
+# ✉️ Contact and Support
 
 If you have any feedback or concerns, please contact <grantleadie@gmail.com>.
 
 ---
 
-### ⚖️ License
+# ⚖️ License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2020 Grant Eadie All Rights Reserved.
 
