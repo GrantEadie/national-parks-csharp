@@ -105,7 +105,7 @@ To view or edit the code, you will need an code editor or text editor. The popul
 
 3. Change the server, port, and user id as necessary. Replace 'YourPassword' with relevant MySQL password (set at installation of MySQL).
 
-# ⚙️ Setup and Use
+# Setup and Use
 
 - copy the repository URL and paste it after this GIT command `git clone {repository url}`
 - after opening the repository in your code reader, run `dotnet build`
@@ -146,6 +146,27 @@ To view or edit the code, you will need an code editor or text editor. The popul
 - in [Postman](https://www.postman.com/) or other client, paste your Bearer Token into a header
 - paste this url into the request line -- http://localhost/api/{reserves OR states}
 - send request and reap the benefits of this incredible API!
+
+# UPDATING 
+- in [Postman](https://www.postman.com/) or other client, paste your Bearer Token into a header
+- paste this url into the request line -- http://localhost/api/{reserves OR states}
+- set request type to POST, copy the id of the state or reserve you would like to update
+- set request type to PUT, and change the url line to http://localhost/api/{reserves OR states}/{id}
+- in the body use this syntax 
+
+```
+{
+  "{state/reserve}Name": {update here},
+  "{states/reserves}": {update here}
+}
+```
+- send request
+
+# DELETE
+- in [Postman](https://www.postman.com/) or other client, paste your Bearer Token into a header
+- paste this url into the request line -- http://localhost/api/{reserves OR states}
+- set request type to POST, copy the id of the state or reserve you would like to update
+- set request type to DELETE, and change the url line to http://localhost/api/{reserves OR states}/{id}
 
 
 ## Database
