@@ -126,6 +126,31 @@ To view or edit the code, you will need an code editor or text editor. The popul
 - copy the Bearer Token received in the body of the return and paste into your client
 - POST or GET to `http://localhost:4000/api/reserves` or `http://localhost:4000/api/states`
 
+### POSTING 
+
+- in [Postman](https://www.postman.com/) or other client, paste your Bearer Token into a header
+- paste this url into the request line -- http://localhost/api/{reserves OR states}
+- to POST in RESERVES, paste this syntax into the body of your POST 
+
+```
+{
+  "reserveName": "{the name of the reserve you are posting}"
+  "states": "{states they currently reside in.}"
+}
+```
+- for STATES
+```
+{
+  "stateName": "{the name of the state you are posting}"
+  "reserves": "{reserves currently in this state}"
+}
+```
+
+### GETTING
+- in [Postman](https://www.postman.com/) or other client, paste your Bearer Token into a header
+- paste this url into the request line -- http://localhost/api/{reserves OR states}
+- send request and reap the benefits of this incredible API!
+
 
 #### Database
 
