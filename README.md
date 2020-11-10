@@ -32,8 +32,8 @@
   - <a href="#-built-with">Built With</a>
   - <a href="#-getting-started">Getting Started</a>
   - <a href="#-setup-and-use">Setup and Use</a>
-  - <a href="#-contact-and-support">Contact</a>
-  - <a href="#-license">License</a>
+  - <a href="#contact-and-support">Contact</a>
+  - <a href="#license">License</a>
 
 
 ---
