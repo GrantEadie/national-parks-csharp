@@ -156,13 +156,13 @@ To view or edit the code, you will need an code editor or text editor. The popul
 
 ---
 
-# ✉️ Contact and Support
+# Contact and Support
 
 If you have any feedback or concerns, please contact <grantleadie@gmail.com>.
 
 ---
 
-# ⚖️ License
+# License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2020 Grant Eadie All Rights Reserved.
 
