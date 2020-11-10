@@ -28,7 +28,7 @@
 ### <u>Table of Contents</u>
 
 - <a href="#🌐-about-the-project">About the Project</a>
-  - <a href="#📖-description">Description</a>
+  - <a href="###📖-Description">Description</a>
   - <a href="#🦠-known-bugs">Known Bugs</a>
   - <a href="#🛠-built-with">Built With</a>
   - <a href="#🔍-preview">Preview</a>
@@ -41,8 +41,6 @@
   - <a href="#🌟-acknowledgements">Acknowledgements</a>
 
 ---
-
-## 🌐 About the Project
 
 ### 📖 Description
 
