@@ -30,14 +30,11 @@
   - <a href="#-Description">Description</a>
   - <a href="#-known-bugs">Known Bugs</a>
   - <a href="#-built-with">Built With</a>
-  - <a href="#-preview">Preview</a>
   - <a href="#-getting-started">Getting Started</a>
   - <a href="#-setup-and-use">Setup and Use</a>
-  - <a href="#-contributors">Auxiliary</a>
-  - <a href="#-contributors">Contributors</a>
   - <a href="#-contact-and-support">Contact</a>
   - <a href="#-license">License</a>
-  - <a href="#-acknowledgements">Acknowledgements</a>
+
 
 ---
 
@@ -56,6 +53,8 @@ Use this really sweet little API to log the reserves, states, and their subseque
 - [ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-3.1)
 - [MySQL](https://dev.mysql.com/)
 - [Entity Framework Core 2.2.6](https://docs.microsoft.com/en-us/ef/core/)
+
+# Getting Started
 
 ## Install .NET Core
 
